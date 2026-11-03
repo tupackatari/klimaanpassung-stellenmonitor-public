@@ -82,4 +82,3 @@ function showHash(){
   if(!$('detail').open)$('detail').showModal();
 }
 setup();
-
