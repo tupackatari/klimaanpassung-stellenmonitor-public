@@ -2,7 +2,7 @@
 
 Öffentliche Website zu Stellenausschreibungen im öffentlichen Sektor, ohne Anmeldung und ohne manuelle Freigabe.
 
-Aufgenommen werden ausschließlich Anzeigen, deren Titel und Beschreibung `Klimaanpassung` oder `Resilienz` oder gemeinsam `Klimawandel` und `Anpassung` enthalten. Wortbestandteile zählen; Groß-/Kleinschreibung spielt keine Rolle. Auch psychische und organisatorische Resilienz zählen nach dieser Wortregel.
+Aufgenommen werden ausschließlich Anzeigen, deren Titel und Beschreibung `Klimaanpassung` oder `Klimaresilienz` oder gemeinsam `Klimawandel` und `Anpassung` enthalten. Wortbestandteile zählen; Groß-/Kleinschreibung spielt keine Rolle. Allgemeine psychische, organisatorische oder IT-Resilienz allein reicht nicht aus.
 
 Aktive Suchquelle: INTERAMT. service.bund.de bleibt deaktiviert. Historische Wochen sind keine vollständige rückwirkende Erhebung.
 
