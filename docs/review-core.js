@@ -20,7 +20,7 @@ async function textHash(text){return Array.from(new Uint8Array(await crypto.subt
 class GitHubReviewClient{
  constructor(repository,branch='main',fetcher=fetch){
   if(!/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(repository))throw Error('Redaktion ist noch nicht eingerichtet.');
-  this.repository=repository;this.owner=repository.split('/')[0];this.branch=branch;this.fetcher=fetcher.bind(globalThis);this.token=null;this.login=null;this.queue=Promise.resolve();
+  this.repository=repository;this.owner=repository.split('/')[0];this.branch=branch;this.fetcher=fetcher.bind(globalThis);this.token=null;this.login=null;this.queue=Promise.resolve();this.expiresAt=0;this.expiryTimer=null;
  }
  async request(path,options={}){
   let response;
@@ -40,11 +40,16 @@ class GitHubReviewClient{
   try{
    const user=await this.request('/user');
    if(user.login?.toLowerCase()!==this.owner.toLowerCase())throw Error(`Nur ${this.owner} kann diese Redaktion anmelden.`);
-   await this.request('/repos/'+this.repository);
-   this.login=user.login;return this.login;
+   const repository=await this.request('/repos/'+this.repository);
+   if(repository.private!==true)throw Error('Das Archiv-Repository ist noch nicht privat. Bearbeitungsmodus vorerst gesperrt.');
+   this.login=user.login;this.expiresAt=Date.now()+20*60*1000;
+   this.expiryTimer=setTimeout(()=>{this.disconnect();if(typeof window!=='undefined')window.dispatchEvent(new Event('editor-expired'));},20*60*1000);
+   this.expiryTimer?.unref?.();return this.login;
   }catch(error){this.disconnect();throw error;}
  }
  async loadArchive(){
+  if(!this.token||!this.login)throw Error('Bitte zuerst den Bearbeitungsmodus anmelden.');
+  if(this.expiresAt && Date.now()>=this.expiresAt){this.disconnect();throw Error('Die Anmeldung ist abgelaufen. Bitte erneut anmelden.');}
   const data=await this.request('/repos/'+this.repository+'/contents/data/editor.json?ref='+encodeURIComponent(this.branch),{headers:{Accept:'application/vnd.github.raw+json'}});
   if(!Array.isArray(data.parts)||data.parts.some(p=>!/^part-\d{4}\.json$/.test(p)))throw Error('Privates Archiv ungültig.');
   const jobs=[];
@@ -54,12 +59,13 @@ class GitHubReviewClient{
   }
   return jobs;
  }
- disconnect(){this.token=null;this.login=null;}
+ disconnect(){clearTimeout(this.expiryTimer);this.expiryTimer=null;this.expiresAt=0;this.token=null;this.login=null;}
  save(job,patch){
   const operation=this.queue.then(()=>this.saveNow(job,patch));this.queue=operation.catch(()=>{});return operation;
  }
  async saveNow(job,patch){
   if(!this.token||!this.login)throw Error('Bitte zuerst den Bearbeitungsmodus anmelden.');
+  if(this.expiresAt && Date.now()>=this.expiresAt){this.disconnect();throw Error('Die Anmeldung ist abgelaufen. Bitte erneut anmelden.');}
   validatePatch(job,patch);
   const login=this.login;
   const text_hash=await textHash(job.full_text);
@@ -93,3 +99,4 @@ class GitHubReviewClient{
 }
 root.ReviewCore={GitHubReviewClient,validatePatch,textHash,encode,decode,TAGS,ROLES};
 })(typeof window==='undefined'?globalThis:window);
+

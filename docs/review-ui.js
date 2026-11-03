@@ -5,6 +5,12 @@ const originalPublic=D.public_view?JSON.parse(JSON.stringify(D)):null;
 const client=cfg.repository&&!D.demo?new ReviewCore.GitHubReviewClient(cfg.repository,cfg.branch||'main'):null;
 let pendingAction=null,formJob=null,busy=false,authSequence=0;
 const history=new Map((D.reviewed_jobs||[]).map(j=>[j.id,j]));
+function clearPrivate(){
+ pendingAction=null;formJob=null;
+ if(originalPublic){Object.assign(D,JSON.parse(JSON.stringify(originalPublic)));history.clear();formJob=null;for(const id of ['detail-content','review-source-text'])$(id).textContent='';for(const id of ['review-task-summary','review-evidence'])$(id).value='';for(const id of ['detail','review-details'])if($(id).open)$(id).close();render();updateHistory();}
+}
+window.addEventListener('editor-expired',()=>{authSequence++;clearPrivate();authState();status('Bearbeitungsmodus nach 20 Minuten abgemeldet.');});
+window.addEventListener('pagehide',()=>{client?.disconnect();clearPrivate();});
 const status=text=>{$('review-save-status').textContent=text;};
 const authState=()=>{$('editor-state').textContent=client?.login?`Angemeldet als ${client.login}. Entscheidungen werden dauerhaft in GitHub gespeichert.`:'Zum dauerhaften Speichern bitte anmelden.';$('editor-connect').textContent=client?.login?'Abmelden':'Bearbeitungsmodus anmelden';};
 function updateHistory(){
@@ -39,6 +45,7 @@ async function save(job,patch){
   if(!D.jobs.some(j=>j.id===job.id))D.jobs.push(job);
   history.set(job.id,job);render();updateHistory();
   if($('review-details').open)$('review-details').close();
+  formJob=null;$('review-source-text').textContent='';$('review-evidence').value='';$('review-task-summary').value='';
   status('In GitHub gespeichert. Deine Ansicht ist aktualisiert; die öffentliche Website folgt automatisch in etwa einer Minute.');
  }catch(error){status(error.message||'Speichern nicht bestätigt. Bitte neu laden und den Status prüfen.');if($('review-details').open)$('review-details-error').textContent=error.message;}
  finally{busy=false;document.querySelectorAll('[data-review]').forEach(b=>b.disabled=false);authState();updateHistory();}
@@ -54,7 +61,7 @@ function decide(id,decision){
  });
 }
 for(const area of ['reviews','review-history-list'])$(area).addEventListener('click',event=>{const button=event.target.closest('[data-review]');if(button)decide(button.dataset.job,button.dataset.review);});
-$('editor-connect').addEventListener('click',()=>{if(busy){status('Bitte das laufende Speichern abwarten.');return;}if(client?.login){client.disconnect();pendingAction=null;if(originalPublic){Object.assign(D,JSON.parse(JSON.stringify(originalPublic)));history.clear();formJob=null;for(const id of ['detail-content','review-source-text'])$(id).textContent='';for(const id of ['review-task-summary','review-evidence'])$(id).value='';for(const id of ['detail','review-details'])if($(id).open)$(id).close();render();updateHistory();}authState();status('Bearbeitungsmodus abgemeldet.');}else requireAuth(()=>{});});
+$('editor-connect').addEventListener('click',()=>{if(busy){status('Bitte das laufende Speichern abwarten.');return;}if(client?.login){client.disconnect();pendingAction=null;authSequence++;clearPrivate();authState();status('Bearbeitungsmodus abgemeldet.');}else requireAuth(()=>{});});
 $('editor-auth-cancel').addEventListener('click',()=>{authSequence++;client?.disconnect();$('editor-token').value='';pendingAction=null;$('editor-auth').close();});
 $('editor-auth').addEventListener('cancel',()=>{authSequence++;client?.disconnect();$('editor-token').value='';pendingAction=null;});
 $('editor-auth-form').addEventListener('submit',async event=>{
@@ -65,7 +72,7 @@ $('editor-auth-form').addEventListener('submit',async event=>{
   await client.connect(token);
   if(originalPublic){const archive=await client.loadArchive();if(attempt!==authSequence){client.disconnect();return;}D.jobs=archive;D.public_view=false;history.clear();archive.filter(j=>j.review.reviewed_by).forEach(j=>history.set(j.id,j));render();updateHistory();}
   if(attempt!==authSequence){client.disconnect();return;}$('editor-auth').close();authState();const action=pendingAction;pendingAction=null;if(action)action();
- }catch(error){$('editor-auth-error').textContent=error.message;}finally{button.disabled=false;}
+ }catch(error){const retry=pendingAction;client?.disconnect();clearPrivate();pendingAction=retry;authState();$('editor-auth-error').textContent=error.message;}finally{button.disabled=false;}
 });
 $('review-details-cancel').addEventListener('click',()=>{$('review-details').close();formJob=null;});
 $('review-details-form').addEventListener('submit',event=>{
@@ -79,8 +86,9 @@ $('review-details-form').addEventListener('submit',event=>{
 for(const r of ReviewCore.ROLES){const option=document.createElement('option');option.value=r;option.textContent=r;$('review-role').append(option);}
 if(client){
  const link=new URL('https://github.com/settings/personal-access-tokens/new');
- link.search=new URLSearchParams({name:'Stellenmonitor Redaktion',description:'Manuelle Stellenprüfung im Adaptation Dashboard',target_name:client.owner,expires_in:'30',contents:'write'});
+ link.search=new URLSearchParams({name:'Stellenmonitor Redaktion',description:'Manuelle Stellenprüfung im Adaptation Dashboard',target_name:client.owner,expires_in:'7',contents:'write'});
  $('editor-token-link').href=link.href;
 }else $('editor-connect').disabled=true;
 authState();updateHistory();
 })();
+

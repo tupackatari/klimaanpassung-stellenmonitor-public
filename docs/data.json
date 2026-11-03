@@ -12,7 +12,7 @@
     }
   ],
   "first_run": "2026-10-07T16:36:35.823128+02:00",
-  "generated_at": "2026-11-03T09:19:09.507281+01:00",
+  "generated_at": "2026-11-03T09:28:55.599543+01:00",
   "germany": {
     "bbox": [
       5.988658,
@@ -445,9 +445,11 @@
         "type": "Kommune"
       },
       "funding": {
-        "evidence": [],
+        "evidence": [
+          "Vergabeverfahren & Fördermittelmanagement:"
+        ],
         "funder": null,
-        "other": "Vergabeverfahren & Fördermittelmanagement:\nSie unterstützen aktiv bei städtebaulichen Ausschreibungen und der Erstellung präziser Leistungsverzeichnisse. Zudem sichern Sie die finanzielle Machbarkeit der Projekte durch eine proaktive und erfolgreiche Fördermittelakquise auf Landes-, Bundes- und EU-Ebene\nArbeitgeberfinanzierte betriebliche Altersvorsorge und vermögenswirksame Leistungen",
+        "other": "Vergabeverfahren & Fördermittelmanagement: Sie unterstützen aktiv bei städtebaulichen Ausschreibungen und der Erstellung präziser Leistungsverzeichnisse. Zudem …",
         "program": null,
         "project": null
       },
@@ -456,8 +458,10 @@
         {
           "city": "Amberg",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1507572",
+          "coordinate_source": null,
           "latitude": 49.44451,
           "longitude": 11.85793,
+          "postcode": "92224",
           "state": null
         }
       ],
@@ -485,9 +489,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -512,6 +519,7 @@
       "tags": [
         "Klimaanpassung"
       ],
+      "text_fingerprint": "b437046ee173c34444de2dbd91977ef3b8ba170351c00cb9c754e9b383ff7e40",
       "title": "Sachbearbeiter/-in (m/w/d) Stadtentwicklung, ISEK, Projektentwicklung",
       "topic": {
         "classification_method": "rules-v1",
@@ -535,7 +543,9 @@
         "type": "Kommune"
       },
       "funding": {
-        "evidence": [],
+        "evidence": [
+          "Gefördertes Deutschlandticket als Jobticket"
+        ],
         "funder": null,
         "other": "Gefördertes Deutschlandticket als Jobticket",
         "program": null,
@@ -546,8 +556,10 @@
         {
           "city": "Korschenbroich",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1434116",
+          "coordinate_source": null,
           "latitude": 51.16557,
           "longitude": 6.57801,
+          "postcode": "41352",
           "state": null
         }
       ],
@@ -576,9 +588,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -603,6 +618,7 @@
       "tags": [
         "Klimaanpassung"
       ],
+      "text_fingerprint": "5fac629825bd90d4af9435677658ef2ffd0d110d06d86166998c9468bb782481",
       "title": "Tiefbauingenieur/-in (w/m/d)",
       "topic": {
         "classification_method": "rules-v1",
@@ -637,8 +653,10 @@
         {
           "city": "Trier",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1032344",
+          "coordinate_source": null,
           "latitude": 49.75865,
           "longitude": 6.64345,
+          "postcode": "54290",
           "state": null
         }
       ],
@@ -666,9 +684,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -693,6 +714,7 @@
       "tags": [
         "Hochwasser"
       ],
+      "text_fingerprint": "571dbfa7bc7c4ea1d7772f055e2fa7a67bb8bd11dd0936f48864b0715da4a49e",
       "title": "Betriebsmechanikerin / Betriebsmechaniker (m/w/d)",
       "topic": {
         "classification_method": "rules-v1",
@@ -727,8 +749,10 @@
         {
           "city": "Husum",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1500943",
+          "coordinate_source": null,
           "latitude": 54.48173,
           "longitude": 9.05529,
+          "postcode": "25813",
           "state": null
         }
       ],
@@ -755,9 +779,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -782,6 +809,7 @@
       "tags": [
         "Hochwasser"
       ],
+      "text_fingerprint": "5a7722100d4c79bf01b65f655fb8525947f5d52673a1970b6ac105eba6a20647",
       "title": "Bauingenieur/in (m/w/d) Genehmigungsverfahren",
       "topic": {
         "classification_method": "rules-v1",
@@ -817,8 +845,10 @@
         {
           "city": "Düsseldorf",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1235957",
+          "coordinate_source": null,
           "latitude": 51.2108,
           "longitude": 6.80199,
+          "postcode": "40227",
           "state": null
         }
       ],
@@ -846,9 +876,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -865,7 +898,7 @@
           "ad_id": "1235957",
           "portal": "INTERAMT",
           "publication_date": "2024-12-18",
-          "reference": "66/[Telefon entfernt]",
+          "reference": "66/03/44/24/01",
           "retrieved_at": "2026-11-02T16:09:25.607316+01:00",
           "url": "https://interamt.de/koop/app/stelle?id=1235957"
         }
@@ -873,6 +906,7 @@
       "tags": [
         "Hochwasser"
       ],
+      "text_fingerprint": "3e2b110592f5a9813161181f2564e1dcfe2648c3706cf85b914658487e2536ef",
       "title": "Einsatzleitung im Straßenunterhaltungsbezirk",
       "topic": {
         "classification_method": "rules-v1",
@@ -907,8 +941,10 @@
         {
           "city": "Braunschweig",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1507741",
+          "coordinate_source": null,
           "latitude": 52.26496,
           "longitude": 10.52217,
+          "postcode": "38100",
           "state": "Niedersachsen"
         }
       ],
@@ -938,9 +974,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -965,6 +1004,7 @@
       "tags": [
         "Hochwasser"
       ],
+      "text_fingerprint": "5e751e27f21ede8ffc45a8fefafc7effbd2cd1fe7f2641a0146598e4962264e1",
       "title": "Erweiterter Personenkreis: Leiter:in der Abteilung Gewässer- und Bodenschutz (m/w/d)",
       "topic": {
         "classification_method": "rules-v1",
@@ -980,7 +1020,7 @@
         "duration": "unbefristet",
         "end_date": null,
         "start_date": "2027-01-01",
-        "start_text": "[Telefon entfernt]"
+        "start_text": "01.01.2027"
       },
       "deadline": "2026-11-03",
       "employer": {
@@ -999,8 +1039,10 @@
         {
           "city": "Jena",
           "coordinate_basis": "Arbeitsortkarte des Portals: https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/10/1498968.html",
+          "coordinate_source": null,
           "latitude": 50.8825216,
           "longitude": 11.5940916,
+          "postcode": "07745",
           "state": "Thüringen"
         }
       ],
@@ -1028,9 +1070,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -1051,15 +1096,15 @@
           "ad_id": "1498968",
           "portal": "service.bund.de",
           "publication_date": "2026-10-06",
-          "reference": "5070-12-[Telefon entfernt]",
-          "retrieved_at": "2026-10-07T17:04:[Telefon entfernt]+02:00",
+          "reference": null,
+          "retrieved_at": "2026-10-07T17:04:00.498193+02:00",
           "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/10/1498968.html"
         },
         {
           "ad_id": "1498968",
           "portal": "INTERAMT",
           "publication_date": "2026-10-06",
-          "reference": "5070-12-[Telefon entfernt]",
+          "reference": null,
           "retrieved_at": "2026-11-02T16:09:25.607316+01:00",
           "url": "https://interamt.de/koop/app/stelle?id=1498968"
         }
@@ -1067,6 +1112,7 @@
       "tags": [
         "Hochwasser"
       ],
+      "text_fingerprint": "8fd42bae3629eaf13d4775dc0ec6ba14ae928e7a4ff8347f1ab61ad85446a1d0",
       "title": "Mitarbeiter/in (m/w/d) im Referat 41 \"Hydrologischer Landesdienst, Hochwassernachrichtenzentrale\"",
       "topic": {
         "classification_method": "rules-v1",
@@ -1101,8 +1147,10 @@
         {
           "city": "Dachau",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1505262",
+          "coordinate_source": null,
           "latitude": 48.25817,
           "longitude": 11.43591,
+          "postcode": "85221",
           "state": null
         }
       ],
@@ -1130,9 +1178,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -1157,6 +1208,7 @@
       "tags": [
         "Hochwasser"
       ],
+      "text_fingerprint": "142e5a456e4bf7f94b7e4eaf409575b5b3b4eae2a568d22ef57db9c3f74bd915",
       "title": "Sicherheitsbeauftragter (m/w/d) für den Bereich Asyl",
       "topic": {
         "classification_method": "rules-v1",
@@ -1191,8 +1243,10 @@
         {
           "city": "Dessau-Roßlau",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1480831",
+          "coordinate_source": null,
           "latitude": 51.84047,
           "longitude": 12.21994,
+          "postcode": "06846",
           "state": null
         }
       ],
@@ -1221,9 +1275,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -1252,6 +1309,7 @@
       "tags": [
         "Hochwasser"
       ],
+      "text_fingerprint": "f415285c4f0e14e83e8446fd6d8727bdd1a435c8ac62bd3154ca361b67597810",
       "title": "Planungsingenieur Flurneuordnung (m/w/d) - landesintern",
       "topic": {
         "classification_method": "rules-v1",
@@ -1275,9 +1333,11 @@
         "type": "Kommune"
       },
       "funding": {
-        "evidence": [],
+        "evidence": [
+          "Die Stelle wird vorerst im Rahmen des Vorhabens „ANK-DAS-A1: Erstellung eines Konzepts zur nachhaltigen Klimaanpassung und für natürlichen Klimaschutz für die Kreisstadt Friedberg (Hessen)“ für die Dauer von zwei Jahren …"
+        ],
         "funder": null,
-        "other": "Die Stelle wird vorerst im Rahmen des Vorhabens „ANK-DAS-A1: Erstellung eines Konzepts zur nachhaltigen Klimaanpassung und für natürlichen Klimaschutz für die Kreisstadt Friedberg (Hessen)“ für die Dauer von zwei Jahren vom Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit (BMUKN) gefördert (Förderkennzeichen: 67DAAN2271). Eine Weiterbeschäftigung nach Abschluss des Förderzeitraums wird angestrebt.\nEigenverantwortliche Erarbeitung und Koordination eines integrierten Konzepts zur nachhaltigen Klimaanpassung für das gesamte Stadtgebiet der Kreisstadt Friedberg einschließlich der fachlichen Abstimmung mit den Vorgaben des Fördervorhabens, der Projektträgerin – insbesondere der Zukunft – Umwelt – Gesellschaft (ZUG) gGmbH – sowie den zuständigen internen und externen Stellen\nKenntnisse kommunaler Planungs- und Entscheidungsprozesse sowie Erfahrungen in der Erstellung strategischer Konzepte, im Projektmanagement oder in der Fördermittelbearbeitung sind wünschenswert",
+        "other": "Die Stelle wird vorerst im Rahmen des Vorhabens „ANK-DAS-A1: Erstellung eines Konzepts zur nachhaltigen Klimaanpassung und für natürlichen Klimaschutz für die …",
         "program": null,
         "project": null
       },
@@ -1286,8 +1346,10 @@
         {
           "city": "Friedberg (Hessen)",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1503380",
+          "coordinate_source": null,
           "latitude": 50.33551,
           "longitude": 8.75374,
+          "postcode": "61169",
           "state": null
         }
       ],
@@ -1315,9 +1377,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -1342,15 +1407,16 @@
       "tags": [
         "Klimaanpassung"
       ],
+      "text_fingerprint": "dd38b8d4b1fa305da3b03b49169b039e82717508620088d3a14bb7f8354928b2",
       "title": "Klimaanpassungsmanager (m/w/d) Nachhaltige Klimaanpassung",
       "topic": {
         "classification_method": "rules-v1",
         "evidence": [
-          "Eigenverantwortliche Erarbeitung und Koordination eines integrierten Konzepts zur nachhaltigen Klimaanpassung für das gesamte Stadtgebiet der Kreisstadt Friedberg einschließlich der fachlichen Abstimmung mit den Vorgaben des Fördervorhabens, der Projektträgerin – insbesondere der Zukunft – Umwelt – ",
+          "Eigenverantwortliche Erarbeitung und Koordination eines integrierten Konzepts zur nachhaltigen Klimaanpassung für das gesamte Stadtgebiet der Kreisstadt Friedberg einschließlich der fachlichen Abstimmung mit den Vorgaben des Fördervorhabens, der Projektträgerin – insbesondere …",
           "Erarbeitung fachlicher Empfehlungen zur Integration von Klimaanpassungsbelangen in die Stadtentwicklung, Stadtplanung und Bauleitplanung sowie fachliche Begleitung erster vorbereitender und pilotierender Maßnahmen im Rahmen des bewilligten Fördervorhabens"
         ],
         "role": "Hauptaufgabe",
-        "summary": "Aufgaben zu Klimaanpassung: Eigenverantwortliche Erarbeitung und Koordination eines integrierten Konzepts zur nachhaltigen Klimaanpassung für das gesamte Stadtgebiet der Kreisstadt Friedberg einschließlich der fachlichen Abstimmung mit den Vorgaben des Fördervorhabens, der Projektträgerin – insbesondere der Zukunft – Umwelt – Gesellschaft (ZUG) gGmbH – sowie den zuständigen internen und externen Stellen Erarbeitung fachlicher Empfehlungen zur Integration von Klimaanpassungsbelangen in die Stadtentwicklung, Stadtplanung und Bauleitplanung sowie fachliche Begleitung erster vorbereitender und pilotierender Maßnahmen im Rahmen des bewilligten Fördervorhabens Eine Zertifizie"
+        "summary": "Aufgaben zu Klimaanpassung: Eigenverantwortliche Erarbeitung und Koordination eines integrierten Konzepts zur nachhaltigen Klimaanpassung für das gesamte Stadtgebiet der Kreisstadt Friedberg einschließlich der fachlichen Abstimmung mit den Vorgaben des Fördervorhabens, der Projektträgerin – insbesondere der Zukunft – Umwelt – Gesellschaft (ZUG) gGmbH – sowie den zuständigen internen und externen Stellen Erarbeitung fachlicher Empfehlungen zur Integration von …"
       }
     },
     {
@@ -1377,8 +1443,10 @@
         {
           "city": "Goslar",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1499183",
+          "coordinate_source": null,
           "latitude": 51.90606,
           "longitude": 10.42656,
+          "postcode": "38640",
           "state": null
         }
       ],
@@ -1406,9 +1474,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -1433,6 +1504,7 @@
       "tags": [
         "Hochwasser"
       ],
+      "text_fingerprint": "5a25b33168d2727309036eb4e9bd5045d92e93d0b53d4af211ec52d0f663af22",
       "title": "Ingenieur*in im Bereich Gewässerschutz",
       "topic": {
         "classification_method": "rules-v1",
@@ -1467,8 +1539,10 @@
         {
           "city": "Overath",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1501674",
+          "coordinate_source": null,
           "latitude": 50.93405,
           "longitude": 7.28569,
+          "postcode": "51491",
           "state": null
         }
       ],
@@ -1496,9 +1570,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -1523,6 +1600,7 @@
       "tags": [
         "Hochwasser"
       ],
+      "text_fingerprint": "44ac60414d79da59c64da2047d92b7e0eab1bda7d068802bd2ca94e99067f394",
       "title": "Leitung Tiefbau & Gewässer  -                                                          Ingenieurin / Ingenieur (m/w/d)",
       "topic": {
         "classification_method": "rules-v1",
@@ -1546,7 +1624,9 @@
         "type": "Land"
       },
       "funding": {
-        "evidence": [],
+        "evidence": [
+          "Kenntnisse in der Finanzierung und Förderung von Vorhaben der Fließgewässerentwicklung, des Hochwasserschutzes und der Seensanierung"
+        ],
         "funder": null,
         "other": "Kenntnisse in der Finanzierung und Förderung von Vorhaben der Fließgewässerentwicklung, des Hochwasserschutzes und der Seensanierung",
         "program": null,
@@ -1557,8 +1637,10 @@
         {
           "city": "Norden",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1504492",
+          "coordinate_source": null,
           "latitude": 53.59644,
           "longitude": 7.20307,
+          "postcode": "26506",
           "state": null
         }
       ],
@@ -1586,9 +1668,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -1617,15 +1702,16 @@
       "tags": [
         "Hochwasser"
       ],
+      "text_fingerprint": "ef9d05ec8c24802d96f215dfa678371f3a16e19d1c0ac4ab03c174e358b906ab",
       "title": "Bauingenieurin/Bauingenieur / Landespflegerin/Landespfleger (m/w/d) als Leitung des Geschäftsbereichs 2",
       "topic": {
         "classification_method": "rules-v1",
         "evidence": [
-          "Verantwortung für die Durchführung von verbandlichen und kommunalen Bauvorhaben in den Bereichen Gewässerentwicklung, Naturschutz und Hochwasserschutz sowie Planung, Vergabe und Überwachung von größeren Unterhaltungsarbeiten für die Domänenverwaltung, insbesondere Entschlammungskampagnen",
+          "Verantwortung für die Durchführung von verbandlichen und kommunalen Bauvorhaben in den Bereichen Gewässerentwicklung, Naturschutz und Hochwasserschutz sowie Planung, Vergabe und Überwachung von größeren Unterhaltungsarbeiten für die Domänenverwaltung, insbesondere …",
           "Fachkenntnisse in der Planung und dem Bau von wasserwirtschaftlichen Vorhaben der Gewässerentwicklung, des Naturschutzes und des Hochwasserschutzes, idealerweise bei Flachlandseen, künstlichen Feuchtgebieten und Mooren"
         ],
         "role": "wesentliche Teilaufgabe",
-        "summary": "Aufgaben zu Hochwasser: Verantwortung für die Durchführung von verbandlichen und kommunalen Bauvorhaben in den Bereichen Gewässerentwicklung, Naturschutz und Hochwasserschutz sowie Planung, Vergabe und Überwachung von größeren Unterhaltungsarbeiten für die Domänenverwaltung, insbesondere Entschlammungskampagnen Fachkenntnisse in der Planung und dem Bau von wasserwirtschaftlichen Vorhaben der Gewässerentwicklung, des Naturschutzes und des Hochwasserschutzes, idealerweise bei Flachlandseen, künstlichen Feuchtgebieten und Mooren Kenntnisse in der Finanzierung und Förderung von Vorhaben der Fließgewässerentwicklung, des Hochwasserschutzes und der Seensanierung"
+        "summary": "Aufgaben zu Hochwasser: Verantwortung für die Durchführung von verbandlichen und kommunalen Bauvorhaben in den Bereichen Gewässerentwicklung, Naturschutz und Hochwasserschutz sowie Planung, Vergabe und Überwachung von größeren Unterhaltungsarbeiten für die Domänenverwaltung, insbesondere Entschlammungskampagnen Fachkenntnisse in der Planung und dem Bau von wasserwirtschaftlichen Vorhaben der Gewässerentwicklung, des Naturschutzes und des Hochwasserschutzes, idealerweise bei …"
       }
     },
     {
@@ -1633,7 +1719,7 @@
         "duration": "unbefristet",
         "end_date": null,
         "start_date": "2027-01-01",
-        "start_text": "[Telefon entfernt]"
+        "start_text": "01.01.2027"
       },
       "deadline": "2026-11-29",
       "employer": {
@@ -1641,7 +1727,9 @@
         "type": "Kommune"
       },
       "funding": {
-        "evidence": [],
+        "evidence": [
+          "Mitwirkung bei der Beschaffung von Fördermitteln"
+        ],
         "funder": null,
         "other": "Mitwirkung bei der Beschaffung von Fördermitteln",
         "program": null,
@@ -1652,8 +1740,10 @@
         {
           "city": "Wernigerode",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1498943",
+          "coordinate_source": null,
           "latitude": 51.8339,
           "longitude": 10.78545,
+          "postcode": "38855",
           "state": null
         }
       ],
@@ -1681,9 +1771,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -1708,6 +1801,7 @@
       "tags": [
         "Hochwasser"
       ],
+      "text_fingerprint": "d7464ccf24aa2b5c91aec30addf62b8a70f6d3c5c003db9250fbad29274a9d60",
       "title": "Sachgebietsleitung (m/w/d) Tiefbau und Gewässerunterhaltung",
       "topic": {
         "classification_method": "rules-v1",
@@ -1742,8 +1836,10 @@
         {
           "city": "Husum",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1502285",
+          "coordinate_source": null,
           "latitude": 54.48173,
           "longitude": 9.05529,
+          "postcode": "25813",
           "state": null
         }
       ],
@@ -1770,9 +1866,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -1797,6 +1896,7 @@
       "tags": [
         "Hochwasser"
       ],
+      "text_fingerprint": "e0b8c6163cbd320eb0f6cb2b300abae4c4b2b09331c99cbcd1719ec6483e88a0",
       "title": "Ingenieur/in (m/w/d) Genehmigungsverfahren",
       "topic": {
         "classification_method": "rules-v1",
@@ -1832,8 +1932,10 @@
         {
           "city": "Oldenburg (Oldb)",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1504772",
+          "coordinate_source": null,
           "latitude": 53.17234,
           "longitude": 8.20932,
+          "postcode": "26121",
           "state": null
         }
       ],
@@ -1856,13 +1958,16 @@
       "publication_date": "2026-10-21",
       "reason": {
         "category": "neu geschaffene Stelle",
-        "evidence": null
+        "evidence": "Dich erwartet eine neu geschaffene Position mit hoher Eigenständigkeit und großem fachlichem Gestaltungsspielraum. Du entwickelst eigenständig Planungen und Lösungsansätze für den Hochwasserschutz und die …"
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -1887,11 +1992,12 @@
       "tags": [
         "Hochwasser"
       ],
+      "text_fingerprint": "70b9a2615efd90307e38af7df71351fa0b1b522a1f9864c41000457eb7c012c3",
       "title": "Ingenieur/in (w/m/d) für Hochwasserschutz und Wasserwirtschaft",
       "topic": {
         "classification_method": "rules-v1",
         "evidence": [
-          "Du erstellst und betreust Planungen für Anlagen des Wasserbaus und der Siedlungswasserwirtschaft – beispielsweise für Entwässerungs- und Regenwasserbehandlungsanlagen, Hochwasserschutzmaßnahmen oder das Starkregenmanagement. Du entwickelst Varianten, prüfst Bauantragsunterlagen und stimmst diese mit"
+          "Du erstellst und betreust Planungen für Anlagen des Wasserbaus und der Siedlungswasserwirtschaft – beispielsweise für Entwässerungs- und Regenwasserbehandlungsanlagen, Hochwasserschutzmaßnahmen oder das Starkregenmanagement. Du entwickelst Varianten, prüfst Bauantragsunterlagen …"
         ],
         "role": "Hauptaufgabe",
         "summary": "Aufgaben zu Hochwasser: Du erstellst und betreust Planungen für Anlagen des Wasserbaus und der Siedlungswasserwirtschaft – beispielsweise für Entwässerungs- und Regenwasserbehandlungsanlagen, Hochwasserschutzmaßnahmen oder das Starkregenmanagement. Du entwickelst Varianten, prüfst Bauantragsunterlagen und stimmst diese mit städtischen sowie externen Stellen ab."
@@ -1921,8 +2027,10 @@
         {
           "city": "Wolfenbüttel",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1484640",
+          "coordinate_source": null,
           "latitude": 52.16242,
           "longitude": 10.53687,
+          "postcode": "38300",
           "state": null
         }
       ],
@@ -1949,9 +2057,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -1976,6 +2087,7 @@
       "tags": [
         "Hitzeschutz"
       ],
+      "text_fingerprint": "8532eb625665c1c37834e54a09247a3ad7cc092be2e81cdf2cc2935c8a63a9ed",
       "title": "Assistenz (m/w/d) der Leitung des Gesundheitsamtes",
       "topic": {
         "classification_method": "rules-v1",
@@ -2010,8 +2122,10 @@
         {
           "city": "Rheda-Wiedenbrück",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1503099",
+          "coordinate_source": null,
           "latitude": 51.83381,
           "longitude": 8.31261,
+          "postcode": "33378",
           "state": null
         }
       ],
@@ -2040,9 +2154,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -2071,6 +2188,7 @@
       "tags": [
         "Klimaanpassung"
       ],
+      "text_fingerprint": "1892bb939e098cccb6363d5666ad352e6d805bc68ec78023ebe44b45b2bea586",
       "title": "Ingenieur/ Ingenieurin (m/w/d) für den Gewässerschutz, Abteilung Tiefbau",
       "topic": {
         "classification_method": "rules-v1",
@@ -2086,7 +2204,7 @@
         "duration": "befristet",
         "end_date": null,
         "start_date": "2027-01-01",
-        "start_text": "[Telefon entfernt]"
+        "start_text": "01.01.2027"
       },
       "deadline": "2026-11-22",
       "employer": {
@@ -2105,8 +2223,10 @@
         {
           "city": "Celle",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1507151",
+          "coordinate_source": null,
           "latitude": 52.6139,
           "longitude": 10.06964,
+          "postcode": "29221",
           "state": null
         }
       ],
@@ -2134,9 +2254,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -2161,6 +2284,7 @@
       "tags": [
         "Hochwasser"
       ],
+      "text_fingerprint": "83d94ff2d3f19a144142166ab4ee2074cbb0b56c041c0c6e72f6c26c3271f6c7",
       "title": "Sachbearbeitung Zivil- und Katastrophenschutz im Ordnungsamt",
       "topic": {
         "classification_method": "rules-v1",
@@ -2195,8 +2319,10 @@
         {
           "city": "Nieheim",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1506609",
+          "coordinate_source": null,
           "latitude": 51.80386,
           "longitude": 9.11176,
+          "postcode": "33039",
           "state": null
         }
       ],
@@ -2221,13 +2347,16 @@
       "publication_date": "2026-10-27",
       "reason": {
         "category": "Nachbesetzung",
-        "evidence": null
+        "evidence": "Die Position ist unbefristet und im Zuge einer Nachfolgeplanung wegen Elternzeit neu zu besetzen."
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -2252,6 +2381,7 @@
       "tags": [
         "Hochwasser"
       ],
+      "text_fingerprint": "2cd21be1de6bed6a0f76c89f1e6e5521609d59b3b6f9b573199736fec189e0ca",
       "title": "Stellvertretende Leitung Bauamt",
       "topic": {
         "classification_method": "rules-v1",
@@ -2286,14 +2416,16 @@
         {
           "city": "Vetschau/Spreewald",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1494441",
+          "coordinate_source": null,
           "latitude": 51.78368,
           "longitude": 14.07613,
+          "postcode": "03226",
           "state": null
         }
       ],
       "monitoring": {
         "first_seen": "2026-11-02T09:52:56.969450+01:00",
-        "last_changed": "2026-11-03T09:16:14.144859+01:00",
+        "last_changed": "2026-11-03T09:28:55.599543+01:00",
         "last_seen": "2026-11-02T16:09:25.607316+01:00",
         "new_basis": "publication_date",
         "new_date": "2026-09-22",
@@ -2316,9 +2448,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -2343,6 +2478,7 @@
       "tags": [
         "Klimaanpassung"
       ],
+      "text_fingerprint": "4876f9bff24c061806e382ede908ae9a9c36fedde904a86d2fd40fd5c4198234",
       "title": "Sachbearbeiter/in Stadtentwicklung",
       "topic": {
         "classification_method": "rules-v1",
@@ -2366,7 +2502,9 @@
         "type": "Kommune"
       },
       "funding": {
-        "evidence": [],
+        "evidence": [
+          "Erstellen von Finanzierungs- und Kostenberechnungen sowie Bauprogrammen für künftige Bauvorhaben"
+        ],
         "funder": null,
         "other": "Erstellen von Finanzierungs- und Kostenberechnungen sowie Bauprogrammen für künftige Bauvorhaben",
         "program": null,
@@ -2377,8 +2515,10 @@
         {
           "city": "Wetzlar",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1505621",
+          "coordinate_source": null,
           "latitude": 50.55463,
           "longitude": 8.50435,
+          "postcode": "35578",
           "state": null
         }
       ],
@@ -2406,9 +2546,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -2433,6 +2576,7 @@
       "tags": [
         "Hochwasser"
       ],
+      "text_fingerprint": "2d5f164ed5b103e2148b3ab2e09db8c403ac25ab563c8cc0567e8221a3fecdef",
       "title": "Bauingenieur (m/w/d) Kanalplanung",
       "topic": {
         "classification_method": "rules-v1",
@@ -2456,7 +2600,9 @@
         "type": "Kommune"
       },
       "funding": {
-        "evidence": [],
+        "evidence": [
+          "Fördermittelakquise, Projekt- und Vergabemanagement"
+        ],
         "funder": null,
         "other": "Fördermittelakquise, Projekt- und Vergabemanagement",
         "program": null,
@@ -2467,8 +2613,10 @@
         {
           "city": "Berlin",
           "coordinate_basis": "Natural Earth 10m populated places (Ortsmittelpunkt, public domain)",
+          "coordinate_source": null,
           "latitude": 52.523765,
           "longitude": 13.399603,
+          "postcode": "12681",
           "state": "Berlin"
         }
       ],
@@ -2495,11 +2643,14 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
-        "hours_options": null,
+        "hours_options": [],
         "hours_per_week": 39.4,
         "positions": 1,
         "work_time": "Teilzeit"
@@ -2517,11 +2668,12 @@
       "tags": [
         "Klimaanpassung"
       ],
+      "text_fingerprint": "9c39aa45ffb715121ee1a25d4be5d49d4b9117f44a41a56f4c1d7ccaa1066ef7",
       "title": "Sachbearbeitung in der bezirklichen Klimaleitstelle (w/m/d)",
       "topic": {
         "classification_method": "rules-v1",
         "evidence": [
-          "Steuerung und Fortschreibung des bezirklichen Klimaschutzes und der Klimaanpassung: Entwicklung, Umsetzung und fachliche Weiterentwicklung von Klimaschutz- und Klimaanpassungsmaßnahmen sowie Fortschreibung des bezirklichen Klimaschutzkonzeptes auf Grundlage gesetzlicher Vorgaben, politischer Beschlü"
+          "Steuerung und Fortschreibung des bezirklichen Klimaschutzes und der Klimaanpassung: Entwicklung, Umsetzung und fachliche Weiterentwicklung von Klimaschutz- und Klimaanpassungsmaßnahmen sowie Fortschreibung des bezirklichen Klimaschutzkonzeptes auf Grundlage gesetzlicher …"
         ],
         "role": "wesentliche Teilaufgabe",
         "summary": "Aufgaben zu Klimaanpassung: Steuerung und Fortschreibung des bezirklichen Klimaschutzes und der Klimaanpassung: Entwicklung, Umsetzung und fachliche Weiterentwicklung von Klimaschutz- und Klimaanpassungsmaßnahmen sowie Fortschreibung des bezirklichen Klimaschutzkonzeptes auf Grundlage gesetzlicher Vorgaben, politischer Beschlüsse und aktueller fachlicher Erkenntnisse"
@@ -2551,8 +2703,10 @@
         {
           "city": "Stendal",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1502382",
+          "coordinate_source": null,
           "latitude": 52.60545,
           "longitude": 11.85921,
+          "postcode": "39576",
           "state": null
         }
       ],
@@ -2581,9 +2735,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -2612,6 +2769,7 @@
       "tags": [
         "Hochwasser"
       ],
+      "text_fingerprint": "304508efab5689f4623e3be417b958e4347eb23af0e0ab9ec02623f2f272bf5a",
       "title": "Planungsingenieur/in (m/w/d) Flurneuordnung in Stendal",
       "topic": {
         "classification_method": "rules-v1",
@@ -2646,8 +2804,10 @@
         {
           "city": "Freiberg",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1498643",
+          "coordinate_source": null,
           "latitude": 50.91677,
           "longitude": 13.34272,
+          "postcode": "09599",
           "state": null
         }
       ],
@@ -2670,13 +2830,16 @@
       "publication_date": "2026-10-05",
       "reason": {
         "category": "Nachbesetzung",
-        "evidence": null
+        "evidence": "Die Besetzung der Stelle erfolgt unbefristet im Rahmen einer Altersnachfolge."
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -2701,6 +2864,7 @@
       "tags": [
         "Hochwasser"
       ],
+      "text_fingerprint": "e5bb293349598d9d67999f6953bb49de1e71de0193bda1fd79f4bc6d6f704433",
       "title": "Bauingenieur/Hydrologe (m/w/d) für Gewässerbau und Planung",
       "topic": {
         "classification_method": "rules-v1",
@@ -2724,9 +2888,11 @@
         "type": "Land"
       },
       "funding": {
-        "evidence": [],
+        "evidence": [
+          "Prüfung von Anträgen und Verwendungsnachweisen in einem neuen Förderprogramm des Umweltministeriums in Handlungsfeldern der Klimaanpassung, mit Schwerpunkt auf den Maßnahmen KA-6 und KA-12 des Saarländischen …"
+        ],
         "funder": null,
-        "other": "Prüfung von Anträgen und Verwendungsnachweisen in einem neuen Förderprogramm des Umweltministeriums in Handlungsfeldern der Klimaanpassung, mit Schwerpunkt auf den Maßnahmen KA-6 und KA-12 des Saarländischen Klimaschutzkonzeptes\n[Kontaktangaben entfernt]\nMitwirkung am Internetauftritt in der fachlichen Darstellung des Themas Klimaanpassung zur Bewerbung des Förderprogramms\nVorbereitung und Mitwirkung an der Organisation von Infoveranstaltungen, Schulungen bzw. Kampagnen für die Bewerbung des Förderprogramms",
+        "other": "Prüfung von Anträgen und Verwendungsnachweisen in einem neuen Förderprogramm des Umweltministeriums in Handlungsfeldern der Klimaanpassung, mit Schwerpunkt auf …",
         "program": null,
         "project": null
       },
@@ -2735,8 +2901,10 @@
         {
           "city": "Saarbrücken",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1503904",
+          "coordinate_source": null,
           "latitude": 49.22813,
           "longitude": 6.97846,
+          "postcode": "66117",
           "state": null
         }
       ],
@@ -2764,9 +2932,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -2783,7 +2954,7 @@
           "ad_id": "1503904",
           "portal": "INTERAMT",
           "publication_date": "2026-10-19",
-          "reference": "MUKMAV - [Telefon entfernt]#0358 Stabstelle + C/5",
+          "reference": null,
           "retrieved_at": "2026-11-02T16:09:25.607316+01:00",
           "url": "https://interamt.de/koop/app/stelle?id=1503904"
         }
@@ -2791,15 +2962,16 @@
       "tags": [
         "Klimaanpassung"
       ],
+      "text_fingerprint": "8910bbc2bd1db5dfefa5fed890c22b6889e0e51c3bc06d845b691f8e68b4068e",
       "title": "einen Mitarbeiter in Vollzeit oder zwei Mitarbeiter jeweils Teilzeit 50% (m/w/d)",
       "topic": {
         "classification_method": "rules-v1",
         "evidence": [
           "Prüfung von Anträgen und Verwendungsnachweisen in einem neuen Förderprogramm des Umweltministeriums in Handlungsfeldern der Klimaanpassung, mit Schwerpunkt auf den Maßnahmen KA-6 und KA-12 des Saarländischen Klimaschutzkonzeptes",
-          "[Kontaktangaben entfernt]"
+          "Zentrale Anlaufstelle für Fragen zu den Fördertatbeständen dieses neuen Förderprogramms mit Schwerpunkt auf Klimaanpassung inkl. persönlicher Beratungsgespräche"
         ],
         "role": "wesentliche Teilaufgabe",
-        "summary": "[Kontaktangaben entfernt]"
+        "summary": "Aufgaben zu Klimaanpassung: Prüfung von Anträgen und Verwendungsnachweisen in einem neuen Förderprogramm des Umweltministeriums in Handlungsfeldern der Klimaanpassung, mit Schwerpunkt auf den Maßnahmen KA-6 und KA-12 des Saarländischen Klimaschutzkonzeptes Zentrale Anlaufstelle für Fragen zu den Fördertatbeständen dieses neuen Förderprogramms mit Schwerpunkt auf Klimaanpassung inkl. persönlicher Beratungsgespräche"
       }
     },
     {
@@ -2815,9 +2987,11 @@
         "type": "Kommune"
       },
       "funding": {
-        "evidence": [],
+        "evidence": [
+          "Steuerung und Realisierung des geförderten Projekts mit Beschaffung der Sensorik, Koordination der technischen Integration (Datenübertragung, Smart‑City‑Anbindung) sowie Einführung und Betreuung der Softwareplattform"
+        ],
         "funder": null,
-        "other": "Steuerung und Realisierung des geförderten Projekts mit Beschaffung der Sensorik, Koordination der technischen Integration (Datenübertragung, Smart‑City‑Anbindung) sowie Einführung und Betreuung der Softwareplattform\nFördermittelmanagement (Berichtswesen, Abrechnungen, Öffentlichkeitsarbeit)",
+        "other": "Steuerung und Realisierung des geförderten Projekts mit Beschaffung der Sensorik, Koordination der technischen Integration (Datenübertragung, …",
         "program": null,
         "project": null
       },
@@ -2826,8 +3000,10 @@
         {
           "city": "Frankfurt am Main",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1505784",
+          "coordinate_source": null,
           "latitude": 50.1252,
           "longitude": 8.64607,
+          "postcode": "60486",
           "state": "Hessen"
         }
       ],
@@ -2855,9 +3031,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -2874,7 +3053,7 @@
           "ad_id": "1505784",
           "portal": "INTERAMT",
           "publication_date": "2026-10-23",
-          "reference": "1110/[Telefon entfernt]",
+          "reference": null,
           "retrieved_at": "2026-11-02T16:09:25.607316+01:00",
           "url": "https://interamt.de/koop/app/stelle?id=1505784"
         }
@@ -2882,6 +3061,7 @@
       "tags": [
         "Hochwasser"
       ],
+      "text_fingerprint": "c9ee9c40d3554828cbc4bc81c349851c513672df5efde9fdc05224c793981da3",
       "title": "Techniker :in Starkregenfrühwarnsystem (w/m/d)",
       "topic": {
         "classification_method": "rules-v1",
@@ -2906,7 +3086,9 @@
         "type": "Kommune"
       },
       "funding": {
-        "evidence": [],
+        "evidence": [
+          "Betreuen von Vergabeverfahren, Akquirieren und Abwickeln von Fördermitteln sowie das Koordinieren der Zusammenarbeit mit externen Gutachterinnen und Gutachtern"
+        ],
         "funder": null,
         "other": "Betreuen von Vergabeverfahren, Akquirieren und Abwickeln von Fördermitteln sowie das Koordinieren der Zusammenarbeit mit externen Gutachterinnen und Gutachtern",
         "program": null,
@@ -2917,8 +3099,10 @@
         {
           "city": "Wiesbaden",
           "coordinate_basis": "Natural Earth 10m populated places (Ortsmittelpunkt, public domain)",
+          "coordinate_source": null,
           "latitude": 50.080392,
           "longitude": 8.250028,
+          "postcode": "65183",
           "state": "Hessen"
         }
       ],
@@ -2946,11 +3130,14 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
-        "hours_options": null,
+        "hours_options": [],
         "hours_per_week": 39.0,
         "positions": 1,
         "work_time": "Vollzeit"
@@ -2969,6 +3156,7 @@
         "Klimaanpassung",
         "Hitzeschutz"
       ],
+      "text_fingerprint": "09fbf3b84d2920f1091aa92201a8a73cfff36f82ccfd8be8e9cdf193626bfeed",
       "title": "Projektmanager/-in für klimagerechtes Stadtgrün (w/m/d)",
       "topic": {
         "classification_method": "rules-v1",
@@ -3003,8 +3191,10 @@
         {
           "city": "Fürth",
           "coordinate_basis": "Ausdrücklicher Einsatzort der öffentlichen INTERAMT-Anzeige: https://interamt.de/koop/app/stelle?id=1505367",
+          "coordinate_source": null,
           "latitude": 49.47472,
           "longitude": 10.98786,
+          "postcode": "90762",
           "state": null
         }
       ],
@@ -3032,9 +3222,12 @@
       },
       "review": {
         "duplicate_candidates": [],
-        "reason": "Fachlich als relevant eingestuft.",
+        "manually_reviewed": false,
+        "reason": "Expliziter Aufgabenbeleg; Aufgabenrolle nach dokumentierten Regeln.",
+        "reviewed_at": null,
         "status": "relevant"
       },
+      "schema_version": 1,
       "scope": {
         "hours_options": [
           {
@@ -3059,6 +3252,7 @@
       "tags": [
         "Hochwasser"
       ],
+      "text_fingerprint": "c877ca94aa0e24250f8e164549b9a299362d21172158175fb476c4228fa42bf1",
       "title": "Technische Sachbearbeitung Energiemanagement (w/m/d)",
       "topic": {
         "classification_method": "rules-v1",
@@ -3075,9 +3269,36 @@
       "INTERAMT"
     ],
     "complete": true,
+    "counts": {
+      "Prüfung erforderlich": 84,
+      "ausgeschlossen": 38,
+      "relevant": 29
+    },
+    "finished_at": "2026-11-02T16:15:28.311779+01:00",
+    "id": "20261102T160925607316",
+    "records_seen": 136,
+    "report_week": "2026-W44",
+    "sources": [
+      {
+        "details_ok": 0,
+        "portal": "service.bund.de",
+        "search_complete": false,
+        "status": "disabled"
+      },
+      {
+        "details_ok": 136,
+        "portal": "INTERAMT",
+        "search_complete": true,
+        "status": "ok"
+      }
+    ],
     "started_at": "2026-11-02T16:09:25.607316+01:00"
   },
   "operator": null,
+  "privacy": {
+    "archive_access": "authenticated_owner",
+    "full_text_public": false
+  },
   "public_view": true,
   "review_editor": {
     "branch": "main",
